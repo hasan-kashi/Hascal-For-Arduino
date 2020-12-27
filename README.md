@@ -1,6 +1,5 @@
 # Hascal For Arduino
-Hascal Arduino Compiler.
-
+A [Hascal Programming Language](https://github.com/hascal) Compiler for programming Arduino
 ## Example 
 blink :
 ```
