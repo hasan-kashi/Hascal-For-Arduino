@@ -1,4 +1,3 @@
-use "SDI";
 function setup
     pinMode(LED_BUILTIN, OUTPUT);
 end;
