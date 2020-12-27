@@ -1,5 +1,5 @@
 # Hascal For Arduino
-A Compiler for [Hascal Programming Language](https://github.com/hascal) for programming Arduino
+Compiler for [Hascal Programming Language](https://github.com/hascal) for programming Arduino
 ## Example 
 blink :
 ```
@@ -21,6 +21,26 @@ python hascal.py blink.has
 arduino --upload tmp.ino
 ```
 
+## Build
+Prerequisites :
+- arduino v1.8 or higher
+- python v3.X
+
+and you must have the pyinstaller library installed , if not installed enter following command for install it :
+```
+# on linux :
+pip3 install pyinstaller
+
+# on windows :
+pip install pyinstaller
+```
+
+then enter the following command in the terminal :
+```
+pyinstaller hascal.py --onefile
+```
+
+that compiles in `src/dist` folder.
 ## License
 GNU general public license
 
