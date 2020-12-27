@@ -26,7 +26,7 @@ Prerequisites :
 - arduino v1.8 or higher
 - python v3.X
 
-and you must have the pyinstaller library installed , if not installed enter following command for install it :
+and you must have the `pyinstaller` library installed , if not installed enter following command for install it :
 ```
 # on linux :
 pip3 install pyinstaller
