@@ -21,3 +21,8 @@ python hascal.py blink.has
 arduino --upload tmp.ino
 ```
 
+## License
+GNU general public license
+
+## About
+Copyright © 2019-2020 **Hascal Development Team**, all rights reserved.
